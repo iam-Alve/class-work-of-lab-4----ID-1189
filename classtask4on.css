@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(253, 242, 227);
+}
+
+.box1 {
+    width: 550px;
+    height: 450px;
+    border: 2px solid black;
+    position: relative;
+    margin: 270px auto;
+    background-color: rgb(166, 218, 243);
+    border-radius: 20%;
+}
+
+.ph1 {
+    top: -40px;
+    left: -30px;
+    background-image: url(https://i.pinimg.com/736x/34/cb/e3/34cbe3ff336ca4d38de4233ea982ecda.jpg);
+}
+
+.ph2 {
+    bottom: -40px;
+    right: -30px;
+    background-image: url(https://i.pinimg.com/736x/c7/2c/b2/c72cb29c701292c591d9663130279fdb.jpg);
+}
+
+.ph1,
+.ph2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+.conv1,
+.conv2 {
+    padding: 20px 30px;
+    border: 1px solid #333;
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    color: rgb(143, 96, 8);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+.conv1 {
+    top: 138px;
+    left: 230px;
+}
+
+.conv2 {
+    top: 250px;
+    right: 240px;
+}
+
+.dot1,
+.dot3 {
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border: 1px solid #333;
+    border-radius: 60%;
+    position: absolute;
+}
+
+.dot2,
+.dot4 {
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dot1 {
+    top: 120px;
+    left: 230px;
+}
+
+.dot2 {
+    top: 80px;
+    left: 180px;
+}
+
+.dot3 {
+    bottom: 110px;
+    right: 230px;
+}
+
+.dot4 {
+    bottom: 70px;
+    right: 180px;
+}
